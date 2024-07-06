@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Arsenal SC", sans-serif;
+  font-size: 1.5rem;
+}
+body {
+  min-height: 100vh;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.one {
+  background: #daf7a6;
+  grid-column: 1/3;
+  grid-row: 1;
+}
+.two {
+  background: #ffc300;
+  grid-column: 1/3;
+}
+.two img {
+height: 150px;
+min-height:50vh;
+}
+.three {
+  background: #ff5733;
+}
+
+.four {
+  background: #c70039;
+}
+.five {
+  background: #900c3f;
+}
+
+.six {
+  background: #581845;
+}
